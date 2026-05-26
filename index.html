@@ -426,18 +426,14 @@ footer{background:#030706;border-top:1px solid rgba(28,172,80,.1);padding:42px 2
     </div>
 
     <div class="video-wrap">
-      <!-- VIDEO BOX: quando tiver o link do YouTube/Instagram, substitua o bloco abaixo -->
-      <!-- Para YouTube: <iframe src="https://www.youtube.com/embed/SEU_ID" ...></iframe> -->
-      <!-- Para Instagram Reels: use o oEmbed ou link direto -->
-      <div class="video-box" id="video-box">
-        <div class="vplay" onclick="document.getElementById('video-box').innerHTML='<iframe style=\'width:100%;height:100%;position:absolute;inset:0;border:none;\' src=\'https://www.youtube.com/embed/SEU_VIDEO_ID?autoplay=1\' allow=\'autoplay\' allowfullscreen></iframe>'">
-          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-        </div>
-        <span class="vtxt">Assista ao vídeo</span>
-        <div class="vbadge">
-          <svg style="display:inline;width:11px;height:11px;fill:var(--green2);vertical-align:middle;margin-right:4px" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#061008" d="M10 8l6 4-6 4V8z"/></svg>
-          <span>Adicione o link do YouTube aqui</span>
-        </div>
+      <div class="video-box" style="padding:0;background:#000;">
+        <iframe
+          style="width:100%;height:100%;position:absolute;inset:0;border:none;border-radius:22px;"
+          src="https://www.youtube.com/embed/13xrvj_yet4?rel=0&modestbranding=1"
+          title="Pro DNA Técnico — Curso Técnico de Enfermagem"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
       </div>
     </div>
   </div>
